@@ -52,6 +52,6 @@ let b1 = prompt("What is the length of the base?")
 let b2 = prompt("What is the length of the opposite side you provided as the base?")
 let h = prompt("What is the height of the trapezoid? Or what is the distance between each base?")
 let x;
-x=((b1+b2)*h)*.5;
+x=((parseInt(b1)+parseInt(b2))*h)/2;
 alert(x);
 }
